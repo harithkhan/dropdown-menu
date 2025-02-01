@@ -1,4 +1,4 @@
 import "./style.css";
-import { attachDropdownListener } from "../dropdown";
+import { attachDropdownListener } from "./dropdown";
 
 attachDropdownListener();
