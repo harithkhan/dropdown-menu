@@ -10,18 +10,51 @@
         <header>
             <nav>
                 <div class="dropdown-container">
-                    <button class="dropdown-button" data-status="closed">
+                    <button
+                        class="dropdown-button"
+                        data-status="closed"
+                        data-name="this-name"
+                    >
                         <img
                             alt="Icon of dropdown-button"
                             class="dropdown-icon"
                             src="./img/list.png"
                         />
                     </button>
-                    <button class="nav-button hidden">Home</button>
-                    <button class="nav-button hidden">About</button>
-                    <button class="nav-button hidden">Contact</button>
+                    <button class="dropdown-item hidden" data-name="this-name">
+                        Home
+                    </button>
+                    <button class="dropdown-item hidden" data-name="this-name">
+                        About
+                    </button>
+                    <button class="dropdown-item hidden" data-name="this-name">
+                        Contact
+                    </button>
+                </div>
+                <div class="dropdown-container">
+                    <button
+                        class="dropdown-button"
+                        data-status="closed"
+                        data-name="another-name"
+                    >
+                        <img
+                            alt="Icon of dropdown-button"
+                            class="dropdown-icon"
+                            src="./img/list.png"
+                        />
+                    </button>
+                    <button class="dropdown-item hidden" data-name="another-name">
+                        Home
+                    </button>
+                    <button class="dropdown-item hidden" data-name="another-name">
+                        About
+                    </button>
+                    <button class="dropdown-item hidden" data-name="another-name">
+                        Contact
+                    </button>
                 </div>
             </nav>
         </header>
+
     </body>
 </html>
